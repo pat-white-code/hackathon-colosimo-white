@@ -1,3 +1,5 @@
+console.log('hangman.js here...')
+
 const codeWord = 'coding';
 let board = ['*','*','*','*','*','*'];
 

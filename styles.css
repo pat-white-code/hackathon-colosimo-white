@@ -1,0 +1,68 @@
+
+.header {
+  height: 150px;
+  border: 1px red solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__h1 {
+  font-size: 4em;
+}
+
+.header__quote {
+  color:#666
+}
+
+.header__quote-credit {
+  color:#333
+}
+
+.board {
+  height: 150px;
+  border: 1px red solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board__piece {
+  font-size: 8em;
+}
+
+.user {
+  height: 150px;
+  border: 1px red solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feedback {
+  height: 75px;
+  border: 1px red solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guessed-letters {
+  height: 75px;
+  border: 1px red solid;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.guess-list {
+  display: flex;
+  padding: 0 0 0 20px;
+}
+
+.guess-list__letter {
+  font-size: 2em;
+  padding: 0 5px;
+}

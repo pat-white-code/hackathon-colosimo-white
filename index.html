@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main-wrapper">
+    <section class="header">
+      <h1 class="header__h1">HangMan.</h1>
+      <h3 class="header__quote"><i>"Every guilty person is his own hangman."</i></h3>
+      <h4 class="header__quote-credit">Lucius Annaeus Seneca</h4>
+    </section>
+    <section class="board">
+    </section>
+    <section class="user">
+      <h2>Guess a Letter:</h2>
+      <input type="text" id="guess-input">
+      <input type="submit" id="guess-submit">
+    </section>
+    <section class="feedback">
+      <p class="feedback__text"><i>Ha! That letter does not exist in the hidden word!</i></p>
+    </section>
+    <section class="guessed-letters">
+      <h2 class="guessed">Guessed Letters: </h2>
+      <ul class="guess-list">
+      </ul>
+    </section>
+  </div>
+  <script src="hangman.js"></script>
+</body>
+</html>

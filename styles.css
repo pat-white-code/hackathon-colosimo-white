@@ -1,7 +1,6 @@
 
 .header {
   height: 150px;
-  border: 1px red solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +21,6 @@
 
 .board {
   height: 150px;
-  border: 1px red solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +32,6 @@
 
 .user {
   height: 150px;
-  border: 1px red solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +40,6 @@
 
 .feedback {
   height: 75px;
-  border: 1px red solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +47,6 @@
 
 .guessed-letters {
   height: 75px;
-  border: 1px red solid;
   display: flex;
   align-items: center;
   padding: 0 50px;

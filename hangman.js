@@ -1,8 +1,11 @@
 console.log('hangman.js here...')
-
-
+const words = ['banana', 'apple', 'sumatra'];
+const randomWord = (arr) => {
+  let random = Math.floor(Math.random()*arr.length);
+  return arr[random];
+}
 //global variables
-const codeWord = 'coding';
+const codeWord = randomWord(words);
 const feedbackSection = document.querySelector('.feedback');
 const feedbackText = document.querySelector('.feedback__text');
 //target submit button
